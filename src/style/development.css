@@ -1,0 +1,36 @@
+.development__list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.development__item {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.development__link {
+  transition: color 0.36s ease-in-out;
+}
+
+.development__link:hover {
+  color: var(--color-hover)
+}
+
+@media (max-width: 1024px) {
+  .development__list {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 560px) {
+  .development__list {
+    gap: 9px;
+  }
+
+  .development__item {
+    font-size: 10px;
+  }
+}

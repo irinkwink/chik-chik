@@ -1,0 +1,26 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 17px;
+  border-bottom: 1px solid var(--color-second);
+}
+
+.header__navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 54px;
+}
+
+@media (max-width: 768px) {
+  .header__navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .header__container {
+    padding: 12px 0 13px;
+  }
+}

@@ -1,0 +1,105 @@
+.reserve {
+  padding: 62px 0 124px;
+}
+
+.reserve__title {
+  margin-bottom: 24px;
+}
+
+.reserve__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 72px;
+  padding-left: 14px;
+}
+
+.reserve__item {
+  line-height: 1.5;
+  color: var(--color-second)
+}
+
+.reserve__form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-bottom: 40px;
+}
+
+.reserve__fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.reserve__fieldset_date {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reserve__legend {
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.reserve__fieldset_sub {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .reserve {
+    padding: 40px 0 80px;
+  }
+
+  .reserve__list {
+    margin-bottom: 40px;
+  }
+
+  .reserve__form-container {
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+
+  .reserve__legend {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .reserve__fieldset_date {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .reserve {
+    padding: 32px 0 64px;
+  }
+
+  .reserve__title {
+    margin-bottom: 16px;
+  }
+
+  .reserve__list {
+    margin-bottom: 32px;
+  }
+
+  .reserve__form-container {
+    gap: 32px;
+    margin-bottom: 24px;
+  }
+
+  .reserve__fieldset {
+    gap: 4px;
+  }
+
+  .reserve__fieldset_date {
+    gap: 20px;
+  }
+
+  .reserve__fieldset_sub {
+    gap: 4px;
+  }
+}
