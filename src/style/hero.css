@@ -10,7 +10,7 @@
 }
 
 .hero__slider {
-
+  min-width: 317px;
 }
 
 @media (max-width: 1024px) {

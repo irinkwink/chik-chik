@@ -6,7 +6,7 @@
   margin-bottom: 24px;
   max-width: 904px;
 }
-
+ 
 .about__description {
   line-height: 1.5;
   margin-bottom: 72px;
@@ -16,7 +16,7 @@
 
 .about__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, 384px);
   gap: 24px 32px;
 }
 
@@ -61,6 +61,10 @@
 }
 
 @media (max-width: 1024px) {
+  .about__list {
+    grid-template-columns: repeat(auto-fit, 290px);
+  }
+
   .about__item {
     flex-direction: column;
   }
@@ -72,7 +76,7 @@
   }
 
   .about__list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 320px);
   }
   
   .about__item {
